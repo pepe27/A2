@@ -22,3 +22,13 @@ h1, h2 {
 article {
     background-color: white;
 }
+
+#Technical p {
+    background-color: black;
+    color: white;
+}
+
+#Career p {
+    background-color: purple;
+    color: white;
+}
