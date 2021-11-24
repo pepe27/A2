@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="contact page of immnewsnetwork">
+    <meta name="keywords" content="immnewsnetwork,immnews,imm,sheridanimm,contactimm,contactimmnewsnetwork">
+    <link rel="author" content="IMM Sheridan" href="http://www.immnewsnetwork.com/" />
+    <link rel="canonical" href="http://www.immnewsnetwork.com/contact" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="assets/logo.jpg"/>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p>Please fill out the form below!</p>
+    <form action="process-contact.php" method="POST">
+        <input type="text" name="name" placeholder="Spongebob" required>
+        <input type="email" name="email" placeholder="pineapple@thesea.com" required>
+        
+        <p>Category interests:</p>
+        <input type="checkbox" id="industry" name="industry" value="industry">
+        <label for="industry"> Industry</label><br>
+        <input type="checkbox" id="technical" name="technical" value="technical">
+        <label for="technical"> Technical</label><br>
+        <input type="checkbox" id="career" name="career" value="career">
+        <label for="career"> Career</label><br><br>
+
+
+        <p>Your Role:</p>
+        <input type="radio" id="writer" name="role" value="writer">
+        <label for="writer">Writer</label>
+        <input type="radio" id="contributor" name="role" value="contributor">
+        <label for="contributor">Contributor</label>
+        <input type="radio" id="administrator" name="role" value="administrator">
+        <label for="administrator">Administrator</label>
+
+        <input type="submit" name="submit">
+    </form>
+
+
+
+
+
+    <footer>
+        Hello! Please note we use cookies to provide a better site experience! <a href="#">Click to accept cookies</a>
+    </footer>
+</body>
+</html>
