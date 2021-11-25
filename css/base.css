@@ -52,18 +52,19 @@ section {
 
 h1, h2 {
     font-size: 1.5em;
+    padding-left:30px;
 }
 
 article {
     background-color: white;
 }
 
-#Technical p {
+#Technical .author {
     background-color: black;
     color: white;
 }
 
-#Career p {
+#Career .author {
     background-color: purple;
     color: white;
 }
