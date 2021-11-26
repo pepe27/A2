@@ -1,5 +1,10 @@
 #logo{
     width: 50px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#logo:hover{
+    transform: rotate(120deg);
 }
 
 p {

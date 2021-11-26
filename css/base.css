@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 html {
     background-image: url('../assets/image1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+h1 {
+    /* font-family: "Tangerine", serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
