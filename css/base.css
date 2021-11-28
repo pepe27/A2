@@ -36,7 +36,9 @@ body {
     background-color: grey;
     margin:1em;
     padding: 10em 2em 2em;
-    width:90%;
+    /* width:90%; */
+    border: navy 2px solid;
+
 
 }
 

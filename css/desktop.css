@@ -6,11 +6,31 @@
     transform: rotate(180deg);
 }
 header{
-    width: 100%;
+    width: 100vw;
 }
 footer{
-    width: 100%;
+    width: 100vw;
 }
 #featured-article{
-    width: 80%;
+    /* width: 80%; */
+    width: 80vw;
+
+}
+
+section  {
+    display: flex;
+}
+
+#featured {
+    flex-wrap:wrap;
+}
+
+#Industry{
+    flex-direction: column;
+}
+
+/* i dont think this does anything */
+#Industry article {
+    flex-wrap: wrap;
+    background-color: olive;
 }
