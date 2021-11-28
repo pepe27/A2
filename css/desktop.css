@@ -21,12 +21,15 @@ section  {
     display: flex;
 }
 
+/* For the top section */
 #featured {
     flex-wrap:wrap;
 }
 
-#Industry{
+#Industry, #Career, #Technical{
     flex-direction: column;
+    flex-wrap:nowrap; 
+    /* ????? */
 }
 
 /* i dont think this does anything */
