@@ -1,3 +1,13 @@
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+
 #logo{
     width: 50px;
     /* transition: width 2s, height 2s, transform 2s; */
@@ -7,6 +17,8 @@
     transition-duration: 1s;
     transition-timing-function: linear;
     border: solid .5rem #c94ec9;
+    animation: slide-in 1000ms;
+    animation-timing-function: linear;
 }
 
 #logo:hover{
