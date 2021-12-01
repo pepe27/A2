@@ -1,10 +1,18 @@
 #logo{
     width: 50px;
-    transition: width 2s, height 2s, transform 2s;
+    /* transition: width 2s, height 2s, transform 2s; */
+    background: #c94ec9;
+    border-radius: 6px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    border: solid .5rem #c94ec9;
 }
 
 #logo:hover{
-    transform: rotate(120deg);
+    /* transform: rotate(120deg); */
+    background: #ff7b29;
+    border-radius: 50%;
 }
 
 p {
